@@ -10,6 +10,15 @@ import java.util.List;
 public class CarServiceImp implements CarService {
     private List<Car> cars;
 
+    {
+        cars.add(new Car("Los", 343, "K089OP"));
+        cars.add(new Car("erw", 1233, "X089OP"));
+        cars.add(new Car("ooij", 854166, "M089XP"));
+        cars.add(new Car("uoioz", 8665, "O089OP"));
+        cars.add(new Car("oljue", 5547, "A082OA"));
+        cars.add(new Car("erwyu", 1990, "X089OO"));
+    }
+
     public CarServiceImp(List<Car> cars) {
         this.cars = new ArrayList<>();
     }
